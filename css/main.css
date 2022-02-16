@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* All Device */
+#m_container .visual {position:relative;}
+#m_container .visual .txtArea {padding:270px 0 0 110px; color:#fff;}
+#m_container .visual .txtArea strong {display:block; font-size:66px; font-weight:800; line-height:66px;}
+#m_container .visual .txtArea p {position:relative; margin:40px 0 0; font-size:22px; line-height:32px;}
+#m_container .visual ul.visual_list li {height:700px;}
+#m_container .visual ul.visual_list li img {display:none;}
+#m_container .visual .bx-controls-direction {position:absolute; top:50%; left:50%; width:100%; padding:0 3%; max-width:1713px; margin-left:-856.5px; margin-top:-57px; z-index:99;}
+#m_container .visual .bx-controls-direction a {position:relative; display:block; width:63px; height:114px; text-indent:-99999px;}
+#m_container .visual .bx-controls-direction a.bx-prev {float:left; background:url('../images/main/vs_prev.png') no-repeat 50% 50%;}
+#m_container .visual .bx-controls-direction a.bx-next {float:right; background:url('../images/main/vs_next.png') no-repeat 50% 50%;}
+#m_container .visual .bx-pager {position:absolute; bottom:50px; left:0; width:100%; text-align:center; z-index:99;}
+#m_container .visual .bx-pager div {display:inline-block; }
+#m_container .visual .bx-pager div a {display:block; width:15px; height:15px; margin:0 10px; border-radius:50px; background:#fff; font-size:0;}
+#m_container .visual .bx-pager div a.active {background:#003399;}
+
+.m_contents .section_1 {position:relative; padding:100px 5% 105px;}
+.m_contents .section_1 .tit {margin:0 0 70px; color:#333; font-size:40px; font-weight:800; text-align:center;}
+.m_contents .section_1 ul {overflow:hidden; max-width:1343px; margin:0 auto;}
+.m_contents .section_1 ul li {float:left; padding:0 1%;}
+.m_contents .section_1 ul li a .imgArea img {width:100%;}
+.m_contents .section_1 ul li a .txtArea {height:230px; padding:35px 0 0; background:#f2f2f2; text-align:center;}
+.m_contents .section_1 ul li a .txtArea strong {color:#333; font-size:20px; line-height:20px; font-weight:800;}
+.m_contents .section_1 ul li a .txtArea p {margin:15px 0 20px; color:#666; font-size:15px; line-height:26px;}
+.m_contents .section_1 ul li a .txtArea span {display:block; width:180px; height:52px; margin:0 auto; border:1px solid #aaa; border-radius:50px; color:#333; font-size:13px; line-height:50px; font-weight:800; text-align:center; letter-spacing:2px;  -webkit-transition:all 0.3s; -moz-transition:all 0.3s; -o-transition:all 0.3s; transition:all 0.3s;}
+.m_contents .section_1 ul li:hover a .txtArea span {border:1px solid rgba(255, 0, 0, 0); color:#fff; background-image: linear-gradient(-90deg, #e0a194, #e3c996);}
+
+.m_contents .section_2 {overflow:hidden;}
+.m_contents .section_2 > a {float:left; width:50%; height:360px; padding:130px 0 0; text-align:center;}
+.m_contents .section_2 > a strong {color:#fff; font-size:28px; font-weight:800;}
+.m_contents .section_2 > a span {display:block; width:180px; height:52px; margin:40px auto 0; border:1px solid #fff; border-radius:50px; color:#fff; font-size:13px; line-height:50px; font-weight:800; text-align:center; letter-spacing:2px;  -webkit-transition:all 0.3s; -moz-transition:all 0.3s; -o-transition:all 0.3s; transition:all 0.3s;}
+.m_contents .section_2 > a:hover span {border:1px solid rgba(255, 0, 0, 0); color:#fff; background-image: linear-gradient(-90deg, #e0a194, #e3c996);}
+.m_contents .section_2 > a.box01 {background:url('../images/main/section_2_box01_bg.jpg') no-repeat 50% 0;}
+.m_contents .section_2 > a.box02 {background:url('../images/main/section_2_box02_bg.jpg') no-repeat 50% 0;}
+
+
+/* 태블릿&모바일 공통*/
+@media all and (max-width:1850px){
+	#m_container .visual .bx-controls-direction {left:0; max-width:100%; margin-left:0; padding:0 3%;}
+}
+
+@media all and (max-width:1250px){
+	#m_container .visual .txtArea {padding:270px 0 0 80px;}
+	#m_container .visual .txtArea strong {font-size:60px;}
+	#m_container .visual .txtArea p {font-size:20px;}
+}
+
+/* 태블릿&모바일 공통*/
+@media all and (max-width:1024px){
+	#m_container .visual .txtArea {position:absolute; top:0; left:12%; padding:115px 0 0 0;}
+	#m_container .visual .txtArea strong {font-size:23px; line-height:25px;}
+	#m_container .visual .txtArea p {margin:15px 0 0; font-size:13px; line-height:16px;}
+	#m_container .visual ul.visual_list li {height:330px; background-size:cover !important;}
+	#m_container .visual ul.visual_list li img {display:none; width:100%;}
+	#m_container .visual .bx-controls-direction {left:0; margin-left:0; margin-top:-17px;}
+	#m_container .visual .bx-controls-direction a {width:19px; height:34px; background-size:100% !important;}
+	#m_container .visual .bx-controls-direction a.bx-prev {background:url('../images/main/vs_prev_m.png') no-repeat 50% 50%;}
+	#m_container .visual .bx-controls-direction a.bx-next {background:url('../images/main/vs_next_m.png') no-repeat 50% 50%;}
+	#m_container .visual .bx-pager {bottom:20px;}
+	#m_container .visual .bx-pager div a {width:12px; height:12px; margin:0 5px;}
+
+	.m_contents .section_1 {padding:40px 50px 50px;}
+	.m_contents .section_1 .tit {margin:0 0 20px; font-size:20px;}
+	.m_contents .section_1 ul li {padding:0 1%;}
+	.m_contents .section_1 ul li a .txtArea {height:120px; padding:10px 0 0;}
+	.m_contents .section_1 ul li a .txtArea strong {font-size:15px; line-height:15px;}
+	.m_contents .section_1 ul li a .txtArea p {margin:10px 0; font-size:12px; line-height:16px;}
+	.m_contents .section_1 ul li a .txtArea span {width:100px; height:30px; font-size:11px; line-height:28px;}
+
+	.m_contents .section_2 > a {float:none; display:block; width:100%; height:160px; padding:50px 0 0; background-size:cover !important;}
+	.m_contents .section_2 > a strong {font-size:19px; line-height:20px;}
+	.m_contents .section_2 > a span {width:110px; height:30px; margin:15px auto 0; font-size:11px; line-height:28px;}
+}
+
+
+@media all and (max-width:900px){
+	.m_contents .section_1 ul li {padding:0 0.5%;}
+	.m_contents .section_1 .slick-arrow {position:absolute; top:50%; margin:-35px 0 0; width:35px; height:35px; background-size:100% !important; text-indent:-9999px;}
+	.m_contents .section_1 .slick-arrow.slick-prev {left:10px; background:url('../images/main/section_1_prev.png') no-repeat 0 0;}
+	.m_contents .section_1 .slick-arrow.slick-next {right:10px; background:url('../images/main/section_1_next.png') no-repeat 0 0;}
+}
+
+
+/* 모바일 공통*/
+@media all and (max-width:800px){
+
+}
+
+
+@media all and (max-width:600px){
+	.m_contents .section_1 ul li {padding:0;}
+}
